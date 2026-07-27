@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InformacionPersonal));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnRegresar1 = new System.Windows.Forms.Button();
             this.sexo = new System.Windows.Forms.GroupBox();
             this.rbNA = new System.Windows.Forms.RadioButton();
@@ -71,9 +72,9 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.sexo.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -81,7 +82,6 @@
             this.cmbOperaciones.SuspendLayout();
             this.cmbAlergias.SuspendLayout();
             this.cmbEnfermedades.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -120,6 +120,16 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Datos Personales";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Actividad_2.Properties.Resources.DatPerson;
+            this.pictureBox1.Location = new System.Drawing.Point(226, 7);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(203, 158);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
             // 
             // btnRegresar1
             // 
@@ -369,7 +379,6 @@
             // 
             this.comboBox4.FormattingEnabled = true;
             this.comboBox4.Items.AddRange(new object[] {
-            "-Opciones-",
             "1-2 dias/semana",
             "3-5 dias/semana",
             "Diario",
@@ -417,7 +426,6 @@
             // 
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Items.AddRange(new object[] {
-            "-Elige una opción-",
             "Fractura",
             "Apendicectomía",
             "Hernia",
@@ -465,7 +473,6 @@
             // 
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
-            "-Cual-",
             "Respiratoria",
             "Alimentaria",
             "Farmacologica",
@@ -514,7 +521,6 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "-Cual-",
             "Diabetes",
             "Hipertensión",
             "Asma",
@@ -546,16 +552,6 @@
             this.radioButton1.Text = "Si";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Actividad_2.Properties.Resources.DatPerson;
-            this.pictureBox1.Location = new System.Drawing.Point(226, 7);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(203, 158);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
-            // 
             // InformacionPersonal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -570,6 +566,7 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.sexo.ResumeLayout(false);
             this.sexo.PerformLayout();
             this.tabPage2.ResumeLayout(false);
@@ -583,7 +580,6 @@
             this.cmbAlergias.PerformLayout();
             this.cmbEnfermedades.ResumeLayout(false);
             this.cmbEnfermedades.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

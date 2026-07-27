@@ -21,7 +21,7 @@ namespace Actividad_2
         {
             if (!string.IsNullOrEmpty(txtNombre.Text))
             {
-                MessageBox.Show("¡Hola, " + txtNombre.Text + "!");
+                MessageBox.Show("¡Hola, " + txtNombre.Text + "! ¿Que tal tu Dia?");
             }
             else
             {
